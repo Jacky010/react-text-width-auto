@@ -16,10 +16,13 @@ const App = () => {
             <div className="style1">
                 <p>宽度100px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
             </div>
-            <div className="style2">
-                <p>宽度80px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
+            <div className="style2 text-color">
+                <p>宽度100px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
             </div>
             <div className="style3">
+                <p>宽度80px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
+            </div>
+            <div className="style4">
                 <p>宽度50px：</p><p><WidthAutoLabel>文本宽度自适应标签组件</WidthAutoLabel></p>
             </div>
         </div>

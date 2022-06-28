@@ -28,7 +28,7 @@ const WidthAutoLabel = (props: WidthAutoLabelProps) => {
         if (!parentNode) {
             return;
         }
-        const { fontSize, fontStyle, fontWeight, fontFamily } = getComputedStyle(parentNode, null);
+        const { fontSize, fontStyle, fontWeight, fontFamily, color } = getComputedStyle(parentNode, null);
         const { clientWidth, clientHeight } = parentNode;
         canvas.width = clientWidth;
         canvas.height = clientHeight;
@@ -43,6 +43,8 @@ const WidthAutoLabel = (props: WidthAutoLabelProps) => {
         if (textWidth < clientWidth) {
             x = (clientWidth - textWidth) / 2;
         }
+        // 文本颜色
+        ctx.fillStyle = color;
         // 绘制文本
         ctx.fillText(children, x, y, clientWidth)
     }

@@ -42,12 +42,27 @@
         align-items: center;
         margin-top: 10px;
         p:nth-child(2) {
+            width: 100px;
+            height: 32px;
+            border: 1px solid #ccc;
+        }
+    }
+
+    .text-color {
+        color: red;
+    }
+
+    .style3 {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        p:nth-child(2) {
             width: 70px;
             height: 32px;
             border: 1px solid #ccc;
         }
     }
-    .style3 {
+    .style4 {
         display: flex;
         align-items: center;
         margin-top: 10px;
