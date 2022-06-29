@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import * as React from 'react';
+import { useEffect, useRef } from 'react';
 
 interface WidthAutoLabelProps {
     children: string;  // 要绘制的文本

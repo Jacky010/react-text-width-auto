@@ -1,6 +1,6 @@
 {
-  "name": "text-width-auto-label",
-  "version": "0.0.3",
+  "name": "react-text-width-auto",
+  "version": "0.0.4",
   "description": "文本宽度自适应标签组件",
   "main": "/src/index.tsx",
   "scripts": {
@@ -13,7 +13,8 @@
     "react",
     "text-auto",
     "width-auto",
-    "text-width-auto"
+    "text-width-auto",
+    "react-text-width-auto"
   ],
   "author": "jacky010",
   "license": "ISC",

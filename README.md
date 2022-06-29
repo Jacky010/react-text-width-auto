@@ -60,7 +60,7 @@ import WidthAutoLabel from 'text-width-auto-label/src/index';
 
 * Github: [@jacky010](https://github.com/jacky010)
 
-* 仓库地址：[text-width-auto-label](https://github.com/Jacky010/text-width-auto-label)
+* 仓库地址：[react-text-width-auto](https://github.com/Jacky010/react-text-width-auto)
 
 ## Show your support
 
