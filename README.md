@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to text-width-auto-label 👋</h1>
+<h1 align="center">Welcome to react-text-width-auto 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -29,7 +29,7 @@ npm run build
 ## Use
 
 ```sh
-import WidthAutoLabel from 'text-width-auto-label/src/index';
+import WidthAutoLabel from 'react-text-width-auto/src/index';
 ```
 
 可通过设置外部容器的`color`来设置自适应后的文本颜色，如下：
