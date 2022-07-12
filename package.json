@@ -1,6 +1,6 @@
 {
   "name": "react-text-width-auto",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "文本宽度自适应标签组件",
   "main": "/src/index.tsx",
   "scripts": {
@@ -8,6 +8,10 @@
     "dev": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "webpack --config config/webpack.prod.config.js",
     "pub": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jacky010/react-text-width-auto"
   },
   "keywords": [
     "react",

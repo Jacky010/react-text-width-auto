@@ -1,8 +1,8 @@
 import React from "react"
 import { createRoot } from 'react-dom/client';
-// import WidthAutoLabel from '../../src/index'; // 引入组件
+import WidthAutoLabel from '../../src/index'; // 引入组件
 import './index.scss';
-import WidthAutoLabel from 'react-text-width-auto';
+// import WidthAutoLabel from 'react-text-width-auto';
 
 const App = () => {
     return (
